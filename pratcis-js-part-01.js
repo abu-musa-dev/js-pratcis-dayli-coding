@@ -13,7 +13,6 @@ fetch('https://jsonplaceholder.typicode.com/users')
 .then(data => {
     console.log(data)
     const container= document.getElementById('content')
-
         data.forEach (user =>{
         console.log(user)
         const div = document.createElement('div')
