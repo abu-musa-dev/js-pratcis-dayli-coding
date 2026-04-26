@@ -14,6 +14,8 @@ fetch('https://jsonplaceholder.typicode.com/users')
     console.log(data)
     const container= document.getElementById('content')
 
+
+    
         data.forEach (user =>{
         console.log(user)
         const div = document.createElement('div')
